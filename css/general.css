@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  padding-left: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none !important;
+}
+html {
+  font-size: 56.25%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Open Sans", sans-serif ;
+  font-weight: 400;
+}
