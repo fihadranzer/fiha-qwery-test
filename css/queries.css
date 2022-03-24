@@ -1,0 +1,235 @@
+/* rem and em do NOT depend on html font-size in media queries! Instead, 1rem = 1em = 16px */
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 75em) {
+  .hero-title {
+    font-size: 7.8rem;
+  }
+
+  .tengara-left img {
+    width: 85%;
+    height: 100%;
+  }
+
+  .tengara-right {
+    padding: 2rem 0;
+  }
+
+  .tengara-container {
+    padding: 12rem 0rem;
+  }
+
+  .bromo-content {
+    padding: 45rem 15rem 3rem 15rem;
+  }
+
+  .bromo-content .large-title {
+    font-size: 5.4rem;
+  }
+
+  .culture-container {
+    padding: 12rem 0rem;
+  }
+
+  .logo-action {
+    font-size: 4.2rem;
+  }
+  .call-to-action {
+    padding: 6rem 0;
+  }
+
+  .qwery-btn {
+    padding: 1.6rem 4rem;
+  }
+}
+
+@media (max-width: 62em) {
+  nav .navbar-collapse {
+    text-align: center;
+  }
+
+  nav .navbar-collapse .nav-item .nav-link {
+    margin: 1rem 0;
+  }
+
+  .hero-title {
+    font-size: 6.4rem;
+  }
+
+  .tengara-right .large-title {
+    font-size: 4.8rem;
+  }
+
+  .tengara-left img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .bromo-content .large-title {
+    font-size: 5.4rem;
+  }
+
+  .culture-left .large-title {
+    font-size: 4.8rem;
+  }
+}
+
+/**************************/
+/* BELOW 960px (large Tab) */
+/**************************/
+
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+
+  .bromo-content {
+    padding: 35rem 10rem 3rem 10rem;
+  }
+}
+
+/**************************/
+/* BELOW 720px (Small Tab) */
+/**************************/
+@media (max-width: 48em) {
+  html {
+    font-size: 37.5%;
+  }
+  .hero-box-details {
+    text-align: center;
+  }
+
+  .small-title {
+    margin-bottom: 6rem;
+  }
+
+  .tengara-right {
+    margin: 5rem 0;
+    text-align: center;
+  }
+
+  .tengara-left {
+    text-align: center;
+  }
+
+  .tengara-left img {
+    width: 90%;
+    height: 75%;
+  }
+
+  .culture-left {
+    text-align: center;
+  }
+
+  .culture-right {
+    justify-content: center;
+    display: flex;
+    margin-top: 5rem;
+  }
+
+  .culture-right img {
+    width: 80%;
+    height: 75%;
+  }
+
+  .footer-title {
+    text-align: center;
+    margin-bottom: 8rem;
+  }
+}
+
+/**************************/
+/* BELOW 540px (Small Device) */
+/**************************/
+
+@media (max-width: 36em) {
+  .tengara-left {
+    text-align: center;
+  }
+  .tengara-left img {
+    width: 75%;
+    height: 100%;
+  }
+
+  .logo-action {
+    text-align: center;
+    width: 100%;
+    margin: 5rem 0;
+  }
+
+  .action-btn-box {
+    text-align: center;
+  }
+
+  .action-box {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .hero-title span {
+    font-size: 5.6rem;
+  }
+
+  .hero-title {
+    font-size: 4.8rem;
+  }
+
+  .tengara-container {
+    padding: 8rem 0;
+  }
+
+  .tengara-right .large-title {
+    font-size: 3.6rem;
+  }
+
+  .tengara-details {
+    font-weight: 400;
+    line-height: 2rem;
+    margin-top: 2rem;
+    padding: 0 5rem;
+    text-align: center;
+  }
+}
+
+/**************************/
+/* BELOW 512px (extra Small Device) */
+/**************************/
+
+@media (max-width: 32em) {
+  .bromo-content {
+    padding: 25rem 10rem 3rem 10rem;
+  }
+
+  .bromo-content .large-title{
+    font-size: 2.8rem;
+  }
+
+  .bromo-content .read-more{
+    margin-top: 8rem;
+  }
+}
+
+
+/**************************/
+/* BELOW 260px (Extra extra Small Device) */
+/**************************/
+
+@media (max-width: 32em){
+
+  html {
+    font-size: 30%;
+  }
+  .bromo-content {
+    padding: 10rem 5rem 3rem 5rem;
+  }
+
+  .section-bromo {
+    background-color: #000;
+    padding: 5rem 5rem;
+  }
+}
